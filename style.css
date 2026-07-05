@@ -1,0 +1,89 @@
+/* ECO SWAP LOGIN & REGISTER STYLE */
+
+body{
+margin:0;
+padding:0;
+font-family:Arial, Helvetica, sans-serif;
+
+/* greenery background */
+
+background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6");
+
+background-size:cover;
+background-position:center;
+height:100vh;
+
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+/* form container */
+
+.form-box{
+background:white;
+padding:40px;
+border-radius:12px;
+width:350px;
+box-shadow:0 8px 20px rgba(0,0,0,0.3);
+text-align:center;
+}
+
+/* title */
+
+.form-box h2{
+margin-bottom:25px;
+color:#2e7d32;
+}
+
+/* input fields */
+
+.form-box input{
+width:100%;
+padding:10px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:5px;
+font-size:14px;
+}
+
+/* focus effect */
+
+.form-box input:focus{
+border-color:#2e7d32;
+outline:none;
+}
+
+/* button */
+
+.form-box button{
+width:100%;
+padding:10px;
+background:#2e7d32;
+color:white;
+border:none;
+border-radius:5px;
+font-size:16px;
+cursor:pointer;
+margin-top:10px;
+}
+
+/* hover */
+
+.form-box button:hover{
+background:#1b5e20;
+}
+
+/* link */
+
+.form-box a{
+display:block;
+margin-top:15px;
+color:#2e7d32;
+text-decoration:none;
+}
+
+.form-box a:hover{
+text-decoration:underline;
+}
